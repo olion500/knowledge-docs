@@ -2,24 +2,22 @@
 
 ## Overview
 
-This document summarizes the development progress of an automated internal knowledge workflow system. The system leverages GPT-4 and other tools (Slack, Notion, Confluence) to process existing team communication, providing summaries, Q&A capabilities, and potentially micro knowledge bases. The goal is to evolve organically from existing team communication, making knowledge access seamless and intuitive for users.
+This document summarizes the development progress of an automated internal knowledge workflow system. The system leverages GPT-4 and other tools (Slack, Notion, Confluence) to process existing team communication, providing summaries, Q&A capabilities, and potentially micro knowledge bases. The goal is to evolve organically from existing team communication, making knowledge access seamless and intuitive for users. The system prioritizes a functional 'ask and answer' core before focusing on operations and administration.
 
 ## Key Points
 
-*   The system is automating internal knowledge workflows by processing existing communication channels.
-*   GPT-4 is the core technology, with plans for embedding tuning and history-based fine-tuning.
-*   The system focuses on enabling users to simply 'ask' and receive accurate responses.
-*   A soft beta is planned for mid-July, with a full rollout targeted for the end of summer.
-*   The Product Requirements Document (PRD) is located on Notion (link to be added).
+*   Automating internal knowledge workflows using existing communication tools (Slack, Notion, Confluence).
+*   Leveraging GPT-4 as the core LLM, with plans for embedding tuning and history-based fine-tuning.
+*   Prioritizing a functional 'ask and answer' core before focusing on operations and administration.
+*   Soft beta planned for mid-July, full rollout by end of summer.
+*   Tech stack includes NestJS (backend), Next.js & Tailwind (frontend), AWS (ECS, RDS, Redis), and LangChain.
 
 ## Decisions Made
 
-*   **LLM:** GPT-4 is the core Large Language Model (LLM).
-*   **Backend:** NestJS was selected for the backend.
-*   **Frontend:** Next.js & Tailwind were chosen for the frontend.
-*   **Infrastructure:** AWS ECS, RDS, and Redis will be used for infrastructure.
-*   **LLM Orchestration:** LangChain will be used for LLM orchestration.
-*   **Chunk Size:** The chunk size for processing documents is capped at approximately 1.2K tokens.
+*   GPT-4 is the core LLM for the project.
+*   NestJS, Next.js, Tailwind, AWS, and LangChain are the chosen technologies.
+*   Chunk size will be kept under ~1.2K tokens.
+*   Focus on 'ask and answer' functionality as the initial priority.
 
 ## Action Items
 
@@ -31,6 +29,7 @@ This document summarizes the development progress of an automated internal knowl
 ## Participants
 
 *   U03TE1JCU5D
+*   ymj02349
 
 ## Technical Details
 
@@ -42,7 +41,6 @@ This document summarizes the development progress of an automated internal knowl
 ## Context
 
 *   **PRD Location:** [Link to Notion PRD - To be added]
-*   This system aims to reduce the time spent searching for information and improve knowledge sharing within the team.
 
 ## Tags
 
@@ -54,3 +52,8 @@ This document summarizes the development progress of an automated internal knowl
 *   development
 *   beta
 *   internal tools
+*   Slack
+*   Notion
+*   Confluence
+*   AWS
+*   LangChain
