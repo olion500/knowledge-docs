@@ -6,11 +6,12 @@ This document summarizes the development progress of an automated internal knowl
 
 ## Key Points
 
-*   The system is automating internal knowledge workflows by processing existing communication channels.
-*   GPT-4 is the core technology, with plans for embedding tuning and history-based fine-tuning.
-*   The system focuses on enabling users to simply 'ask' and receive accurate responses.
-*   A soft beta is planned for mid-July, with a full rollout targeted for the end of summer.
-*   The Product Requirements Document (PRD) is located on Notion (link to be added).
+*   Automating internal knowledge workflows using existing communication tools.
+*   Leveraging GPT-4 as the core technology, with plans for embedding tuning and history-based fine-tuning.
+*   Tech stack includes NestJS (backend), Next.js & Tailwind (frontend), AWS (ECS, RDS, Redis), and LangChain.
+*   Focus is on enabling users to 'ask' and receive accurate responses.
+*   Soft beta planned for mid-July, full rollout by end of summer.
+*   A rough PRD exists on Notion.
 
 ## Decisions Made
 
@@ -27,10 +28,12 @@ This document summarizes the development progress of an automated internal knowl
 *   [ ] **Session Handling:** Consider and finalize session handling decisions.
 *   [ ] **Prompt Patterns:** Solidify prompt patterns for optimal response generation.
 *   [ ] **Prepare for Early Test Access:** Prepare for early test access next week.
+*   [ ] **Focus on answering user questions accurately:** Prioritize the core functionality of providing accurate responses to user queries.
 
 ## Participants
 
 *   U03TE1JCU5D
+*   ymj02349
 
 ## Technical Details
 
