@@ -2,19 +2,20 @@
 
 ## Overview
 
-This document summarizes the development progress of an automated internal knowledge workflow system. The system leverages GPT-4 and other tools (Slack, Notion, Confluence) to process existing team communication, providing summaries, Q&A capabilities, and potentially micro knowledge bases. The goal is to evolve organically from existing team communication, making knowledge access seamless and intuitive for users.
+The team is developing an automated internal knowledge workflow system leveraging GPT-4 and other tools like Slack, Notion, and Confluence. The system aims to evolve organically from existing communication, providing summaries, Q&A capabilities, and potentially micro knowledge bases. This initiative aims to move away from manual documentation and improve knowledge accessibility for users.
 
 ## Key Points
 
-*   The system is automating internal knowledge workflows by processing existing communication channels.
-*   GPT-4 is the core technology, with plans for embedding tuning and history-based fine-tuning.
-*   The system focuses on enabling users to simply 'ask' and receive accurate responses.
-*   A soft beta is planned for mid-July, with a full rollout targeted for the end of summer.
-*   The Product Requirements Document (PRD) is located on Notion (link to be added).
+*   Automating internal knowledge workflows to move away from manual documentation.
+*   Leveraging existing communication tools (Slack, Notion, Confluence, Drive) for knowledge extraction.
+*   GPT-4 is the core LLM, with plans for embedding tuning and history-based fine-tuning.
+*   Tech stack includes NestJS (backend), Next.js & Tailwind (frontend), AWS (ECS, RDS, Redis), and LangChain.
+*   Focus is on enabling users to 'ask' and receive accurate responses.
+*   Soft beta planned for mid-July, full rollout by end of summer.
 
 ## Decisions Made
 
-*   **LLM:** GPT-4 is the core Large Language Model (LLM).
+*   **LLM:** GPT-4 will be the core LLM.
 *   **Backend:** NestJS was selected for the backend.
 *   **Frontend:** Next.js & Tailwind were chosen for the frontend.
 *   **Infrastructure:** AWS ECS, RDS, and Redis will be used for infrastructure.
@@ -27,6 +28,8 @@ This document summarizes the development progress of an automated internal knowl
 *   [ ] **Session Handling:** Consider and finalize session handling decisions.
 *   [ ] **Prompt Patterns:** Solidify prompt patterns for optimal response generation.
 *   [ ] **Prepare for Early Test Access:** Prepare for early test access next week.
+*   [ ] **Provide feedback on the system.**
+*   [ ] **Dev sprint kicks off next week.**
 
 ## Participants
 
@@ -42,15 +45,16 @@ This document summarizes the development progress of an automated internal knowl
 ## Context
 
 *   **PRD Location:** [Link to Notion PRD - To be added]
-*   This system aims to reduce the time spent searching for information and improve knowledge sharing within the team.
 
 ## Tags
 
 *   knowledge management
 *   automation
-*   AI
 *   LLM
 *   GPT-4
-*   development
+*   NestJS
+*   Next.js
+*   AWS
+*   LangChain
 *   beta
 *   internal tools
