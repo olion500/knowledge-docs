@@ -2,15 +2,15 @@
 
 ## Overview
 
-This document summarizes the development progress of an automated internal knowledge workflow system. The system leverages GPT-4 and other tools (Slack, Notion, Confluence) to process existing team communication, providing summaries, Q&A capabilities, and potentially micro knowledge bases. The goal is to evolve organically from existing team communication, making knowledge access seamless and intuitive for users.
+The team is developing an automated internal knowledge workflow system leveraging GPT-4 and integrating with tools like Slack, Notion, and Confluence. This system aims to extract and organize knowledge organically from existing communication channels, creating summaries, Q&A capabilities, and potentially micro knowledge bases. The initial focus is on functionality – enabling users to 'ask' and receive accurate responses – with operational and administrative features planned for later. A soft beta is targeted for mid-July, with a full rollout by the end of summer.
 
 ## Key Points
 
-*   The system is automating internal knowledge workflows by processing existing communication channels.
-*   GPT-4 is the core technology, with plans for embedding tuning and history-based fine-tuning.
-*   The system focuses on enabling users to simply 'ask' and receive accurate responses.
-*   A soft beta is planned for mid-July, with a full rollout targeted for the end of summer.
-*   The Product Requirements Document (PRD) is located on Notion (link to be added).
+*   Developing an automated internal knowledge workflow system.
+*   Leveraging GPT-4 and integrating with tools like Slack, Notion, and Confluence.
+*   Focus on organic knowledge extraction and organization.
+*   Prioritizing core functionality (Q&A) before ops/admin features.
+*   Targeting a soft beta in mid-July and full rollout by the end of summer.
 
 ## Decisions Made
 
@@ -27,6 +27,8 @@ This document summarizes the development progress of an automated internal knowl
 *   [ ] **Session Handling:** Consider and finalize session handling decisions.
 *   [ ] **Prompt Patterns:** Solidify prompt patterns for optimal response generation.
 *   [ ] **Prepare for Early Test Access:** Prepare for early test access next week.
+*   [ ] **Provide feedback on the system.**
+*   [ ] **Dev sprint kicks off next week.**
 
 ## Participants
 
@@ -42,7 +44,8 @@ This document summarizes the development progress of an automated internal knowl
 ## Context
 
 *   **PRD Location:** [Link to Notion PRD - To be added]
-*   This system aims to reduce the time spent searching for information and improve knowledge sharing within the team.
+
+This system aims to reduce the time spent searching for information and improve knowledge sharing within the team.
 
 ## Tags
 
@@ -54,3 +57,7 @@ This document summarizes the development progress of an automated internal knowl
 *   development
 *   beta
 *   internal tools
+*   NestJS
+*   Next.js
+*   AWS
+*   timeline
